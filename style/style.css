@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+#red {
+  background-color: #f25f5c;
+}
+
+#yellow {
+  background-color: #ffe066;
+}
+
+#blue {
+  background-color: #247ba0;
+}
