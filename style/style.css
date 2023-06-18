@@ -1,25 +1,26 @@
-body {
-  margin: 0px;
-  padding: 0px;
+* {
+  border: 1px solid red;
+  background-color: #1e1f2f;
 }
-.container {
+
+.main-text {
   display: flex;
-  /* flex-direction: column; */
-}
+  align-items: center;
 
-.box {
-  width: 300px;
-  height: 300px;
-}
+  /* position our box */
+  position: absolute;
+  left: 130px;
+  top: 301px;
 
-#red {
-  background-color: #f25f5c;
-}
+  /* box sizing */
+  width: 800px;
+  height: 400px;
 
-#yellow {
-  background-color: #ffe066;
-}
-
-#blue {
-  background-color: #247ba0;
+  /* setting for font */
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 156px;
+  line-height: 93%;
 }
