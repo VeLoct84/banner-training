@@ -1,13 +1,41 @@
-* {
+body {
+  display: flex;
+  justify-content: start;
   border: 1px solid red;
+  margin: auto;
+  position: relative;
+
+  width: 1611px;
+  height: 936px;
+
   background-color: #1e1f2f;
+}
+
+.heading-text {
+  display: flex;
+  align-items: center;
+
+  /* position box */
+  position: absolute;
+  left: 261.54px;
+  top: 125px;
+
+  /* box sizing */
+  width: 331px;
+  height: 96px;
+
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 128%;
 }
 
 .main-text {
   display: flex;
   align-items: center;
 
-  /* position our box */
+  /* position box */
   position: absolute;
   left: 130px;
   top: 301px;
@@ -20,7 +48,97 @@
   font-family: Bebas Neue;
   font-style: normal;
   font-weight: 400;
-  color: #ffffff;
   font-size: 156px;
   line-height: 93%;
+}
+
+#white {
+  color: #ffffff;
+}
+
+.shape-container {
+  box-sizing: border-box;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: none;
+  border: 1px solid red;
+}
+
+.small-circle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 1249px;
+  top: 585px;
+
+  box-sizing: border-box;
+  border: 20px solid #ffffff;
+  border-radius: 42px;
+}
+
+.smallWhite-rectangle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 1169px;
+  top: 365px;
+
+  box-sizing: border-box;
+  border: 20px solid #ffffff;
+}
+
+.mediumRed-rectangle {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  left: 1089px;
+  top: 305px;
+
+  box-sizing: border-box;
+  border: 40px solid #e82c4f;
+}
+
+.smallBlue-rectangle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 1089px;
+  top: 585px;
+
+  box-sizing: border-box;
+  border: 20px solid #3256a1;
+}
+
+.bigWhite-rectangle {
+  position: absolute;
+  width: 504px;
+  height: 608px;
+  left: 957px;
+  top: 166px;
+
+  box-sizing: border-box;
+  border: 60px solid #ffffff;
+}
+
+.rectangle-above {
+  position: absolute;
+  width: 558px;
+  height: 644px;
+  left: 1169px;
+  top: -179px;
+
+  box-sizing: border-box;
+  border: 60px solid #48596d;
+}
+
+.rectangle-below {
+  position: absolute;
+  width: 558px;
+  height: 644px;
+  left: 691px;
+  top: 385px;
+
+  box-sizing: border-box;
+  border: 60px solid #2d2f48;
 }
