@@ -1,53 +1,44 @@
-body {
-  display: flex;
-  justify-content: start;
-  border: 1px solid red;
-  margin: auto;
-  position: relative;
+* {
+  box-sizing: border-box;
+  font-family: Bebas Neue;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+}
 
+body {
+  border: 1px solid red;
   width: 1611px;
   height: 936px;
-
   background-color: #1e1f2f;
 }
 
-.heading-text {
+.logo {
   display: flex;
-  align-items: center;
-
-  /* position box */
-  position: absolute;
-  left: 261.54px;
-  top: 125px;
-
-  /* box sizing */
-  width: 331px;
-  height: 96px;
-
-  font-family: Bebas Neue;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 96px;
-  line-height: 128%;
+  margin-top: 125px;
+  margin-left: 130px;
 }
 
-.main-text {
-  display: flex;
-  align-items: center;
+.box-white {
+  width: 31.06px;
+  height: 27.42px;
+  background-color: #ffffff;
+}
 
-  /* position box */
-  position: absolute;
-  left: 130px;
-  top: 301px;
+.box-red {
+  width: 60.47px;
+  height: 68.55px;
+  margin-top: 27.42px;
+  background-color: #e82c4f;
+}
 
-  /* box sizing */
-  width: 800px;
-  height: 400px;
+#text-warmups {
+  font-size: 96px;
+  width: 331px;
+  height: 96px;
+}
 
-  /* setting for font */
-  font-family: Bebas Neue;
-  font-style: normal;
-  font-weight: 400;
+#text-lorem {
   font-size: 156px;
   line-height: 93%;
 }
@@ -59,10 +50,7 @@ body {
 .shape-container {
   box-sizing: border-box;
   position: relative;
-  width: 500px;
-  height: 500px;
   background-color: none;
-  border: 1px solid red;
 }
 
 .small-circle {
@@ -127,7 +115,6 @@ body {
   height: 644px;
   left: 1169px;
   top: -179px;
-
   box-sizing: border-box;
   border: 60px solid #48596d;
 }
@@ -138,7 +125,6 @@ body {
   height: 644px;
   left: 691px;
   top: 385px;
-
   box-sizing: border-box;
   border: 60px solid #2d2f48;
 }
