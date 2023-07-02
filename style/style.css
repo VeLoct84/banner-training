@@ -13,8 +13,7 @@ body {
   width: 1611px;
   height: 936px;
   background-color: #1e1f2f;
-  flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .left-container {
@@ -93,64 +92,56 @@ p {
   height: 48px;
 }
 
-.shape-container {
-  box-sizing: border-box;
+.group-box {
+  display: flex;
+  justify-content: column;
+  flex-wrap: wrap;
+}
+
+.group-box-footer {
+  display: flex;
+  justify-content: space-between;
+
+  width: 240px;
+  margin-top: 72px;
 }
 
 .small-circle {
-  position: absolute;
   width: 80px;
   height: 80px;
-  left: 1249px;
-  top: 585px;
 
-  box-sizing: border-box;
   border: 20px solid #ffffff;
   border-radius: 42px;
 }
 
 .smallWhite-rectangle {
-  position: absolute;
   width: 80px;
   height: 80px;
-  left: 1169px;
-  top: 365px;
 
-  box-sizing: border-box;
   border: 20px solid #ffffff;
 }
 
 .mediumRed-rectangle {
-  position: absolute;
   width: 240px;
   height: 240px;
-  left: 1089px;
-  top: 305px;
 
-  box-sizing: border-box;
   border: 40px solid #e82c4f;
+  padding: 40px;
 }
 
 .smallBlue-rectangle {
-  position: absolute;
   width: 80px;
   height: 80px;
-  left: 1089px;
-  top: 585px;
 
-  box-sizing: border-box;
   border: 20px solid #3256a1;
 }
 
 .bigWhite-rectangle {
-  position: absolute;
   width: 504px;
   height: 608px;
-  left: 957px;
-  top: 166px;
-
-  box-sizing: border-box;
   border: 60px solid #ffffff;
+  margin-top: 166px;
+  padding: 72px;
 }
 
 .rectangle-above {
